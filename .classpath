@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/args4j-2.33.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/spring-framework-4.3.2.RELEASE/libs/spring-beans-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/spring-framework-4.3.2.RELEASE/libs/spring-jdbc-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/spring-framework-4.3.2.RELEASE/libs/spring-context-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/spring-framework-4.3.2.RELEASE/libs/spring-tx-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/spring-framework-4.3.2.RELEASE/libs/spring-core-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/spring-framework-4.3.2.RELEASE/libs/spring-aop-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/spring-framework-4.3.2.RELEASE/libs/spring-expression-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/sqlite-jdbc-3.8.11.2.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/jackson-databind-2.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/jackson-core-2.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/jackson-annotations-2.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/lombok.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="/home/kay/workspace/libraries/ez-vcard-0.9.11.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
