@@ -8,6 +8,7 @@ import org.kay.contactsengine.actions.ExportContactsAction;
 import org.kay.contactsengine.actions.ImportContactsAction;
 import org.kay.contactsengine.actions.SearchContactAction;
 import org.kay.contactsengine.actions.ViewContactsAction;
+import org.kay.contactsengine.aspects.MethodMetrics;
 import org.kay.contactsengine.engine.ContactsEngine;
 import org.kay.contactsengine.formatters.ContactCSVFormatter;
 import org.kay.contactsengine.formatters.ContactFormatter;
@@ -15,9 +16,11 @@ import org.kay.contactsengine.store.ContactsDao;
 import org.kay.contactsengine.store.sql.SQLTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 @Configuration
+@EnableAspectJAutoProxy
 public class ExecutorConfig {
 	
 	@Bean(name="SEARCH")
@@ -79,4 +82,8 @@ public class ExecutorConfig {
 		return new ContactCSVFormatter();
 	}
 
+	@Bean 
+	public MethodMetrics metricsAcpect() {
+		return new MethodMetrics();
+	}
 }
